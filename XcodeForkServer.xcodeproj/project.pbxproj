@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		373C4218263EC197002C1378 /* XcodeForkServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeForkServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		373C421B263EC197002C1378 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		373C4222263EC1F2002C1378 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		373C4223263EC324002C1378 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		373C420F263EC197002C1378 = {
 			isa = PBXGroup;
 			children = (
+				373C4223263EC324002C1378 /* .gitattributes */,
+				373C4222263EC1F2002C1378 /* .gitignore */,
 				373C421A263EC197002C1378 /* XcodeForkServer */,
 				373C4219263EC197002C1378 /* Products */,
 			);
@@ -90,6 +94,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Yoohwa-Cho";
 				TargetAttributes = {
 					373C4217263EC197002C1378 = {
 						CreatedOnToolsVersion = 12.5;
